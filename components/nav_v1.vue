@@ -1,9 +1,9 @@
 <template>
     <!-- nav-bar -->
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full fixed  bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0   ">
-    <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 z-50 " aria-label="Global">
+    <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 z-50 select-none " aria-label="Global">
       <div class="flex items-center justify-between">
-        <a class="flex-none text-xl font-semibold  " href="#" aria-label="Brand"> <img src="~/assets/icons/svg-logo-white.svg" class="h-10 mr-3" alt="fxfuture_logo" /></a>
+        <a class="flex-none text-xl font-semibold   " href="#" aria-label="Brand"> <img src="~/assets/icons/svg-logo-white.svg" class="h-10 mr-3 select-none" alt="fxfuture_logo" /></a>
         <div class="sm:hidden">
           <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium   backdrop-filter backdrop-blur-xl text-gray-700 shadow-sm align-middle transition-all text-sm      " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
             <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -15,7 +15,7 @@
           </button>
         </div>
       </div>
-      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block text-gray-400">
         <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7 font-light">
           <NuxtLink  to="/" class="font-medium text-blue-600 sm:py-6 "  aria-current="page" > Home</NuxtLink>
           <NuxtLink  to="/private" class="font-medium  sm:py-6  hover:text-gray-500" >Private </NuxtLink>
@@ -37,12 +37,11 @@
  
   </template>
 
-<script>
+<!-- <script>
 export default {
   name: 'Navbar',
   
 }
 
-
-
-</script>
+ 
+<script/> -->

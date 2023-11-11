@@ -1,5 +1,6 @@
  
 <script>
+ 
 import NavigationBar from '~/components/nav_v1.vue';
 import footBar from '~/components/footer.vue';
 
