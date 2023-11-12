@@ -5,7 +5,7 @@
             <!-- <a href="#">
                 <img class="w-auto h-7" src="../assets/icons/svg-logo-white.svg" alt="">
             </a> -->
-            <div class="flex flex-wrap justify-center mt-6 -mx-4">
+            <div class="flex flex-wrap justify-center mt-6 py-5 -mx-4">
                 <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Home </a>
                 
                 <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> About </a>
@@ -53,7 +53,7 @@
                 </a>
             </div>
         </div>
-        <div class="text-start text-gray-500 px-20 py-8 ">
+        <div class="text-start text-gray-500 sm:px-2 lg:px-20 py-8 ">
             <div class=" bg-gray-100 rounded-xl p-6">
     <h1 class="font-bold">Disclaimer</h1>
     <p class=" text-[.6rem]">Risk and Volatility in Online Financial Markets
