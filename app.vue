@@ -1,6 +1,4 @@
- 
-<script>
- 
+ <script>
 import NavigationBar from '~/components/nav_v1.vue';
 import footBar from '~/components/footer.vue';
 
@@ -15,7 +13,7 @@ export default {
 
 
 <template>
- <NavigationBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify'" />
+ <NavigationBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify'  && $route.path !== '/private'" />
 
  <div>
    <NuxtLayout>
@@ -23,6 +21,6 @@ export default {
    </NuxtLayout>
  </div>
  
- <footBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify'"/>
+ <footBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify' && $route.path !== '/private'"/>
 </template>
  

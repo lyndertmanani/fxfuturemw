@@ -1,33 +1,18 @@
- <template>
- <SlidersBox/>
- <!-- cookies -->
- <!-- <CookieBanner /> -->
-   <!-- content devision -->
- <div class=" h-auto  z-50  text-center text-gray-800 px-5 lg:px-20 py-1">
-<!-- Call To Action (CTA) -->
- <div class="bg-gray-900 text-md font-light text-white shadow   p-3 h-28 w-9  round-xl fixed bottom-44 right-[-2px]">
-  <a href="https://wa.me/c/971522106277"> <p class="rotate-90">Feedback</p></a>
- </div>
-
- <!-- what we offer -->
-<section class="bg-white select-none">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 h-auto">
-      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12" >
-          <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-800 " data-aos="zoom-in" >Discover Top Course</h2>
-          <p class="mb-5 font-light   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
-      </div>
-      
+<template>
+ <section class="select-none">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 h-auto"> 
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  ">
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800  duration-500 bg-white rounded-lg border border-gray-300 hover:shadow-xl ">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900 hover:border-gray-800">
+            
               <h3 class="mb-4 text-2xl font-semibold">Synthetics trades</h3>
               <p class="font-light sm:text-lg ">With a special focus on Boom and Crash markets.</p>
               <div class="flex justify-center items-baseline my-4">
-                
                   <span class="mr-2 text-5xl  text-gray-500 font-extrabold">$</span>
                   <span class="text-gray-400">/month</span>
               </div>
               <!-- List -->
+            
               <ul role="list" class="mb-4 space-y-2 text-left ">
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
@@ -55,10 +40,11 @@
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-gray-800 hover:bg-blue-600 duration-500 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
-          </div>
+              <a href="#" class="text-white bg-gray-800 hover:bg-gradient-to-r from-amber-300 to-yellow-700 duration-500 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              
+            </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900  hover:border-gray-800">
               <h3 class="mb-4 text-2xl  font-semibold">Currencies</h3>
               <p class="font-light sm:text-lg  ">Relevant for multiple users, extended & premium support.</p>
               <div class="flex justify-center items-baseline my-4">
@@ -93,10 +79,10 @@
                       <span>Free updates: <span class="font-semibold">24 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-blue-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-gradient-to-r from-amber-300 to-yellow-700  focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900  hover:border-gray-800">
               <h3 class="mb-4 text-2xl font-semibold">Forex Stocks</h3>
               <p class="font-light sm:text-lg ">Best for large scale uses and extended redistribution rights.</p>
               <div class="flex justify-center items-baseline my-4">
@@ -131,36 +117,10 @@
                       <span>Free updates: <span class="font-semibold">36 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-blue-600  hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" class="text-white bg-gray-800    duration-500  hover:bg-gradient-to-r from-amber-300 to-yellow-700   focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
       </div>
   </div>
 </section>
- 
-<!-- premium -->
-<premium/>
-<questions/>
- </div>
-<communityPort/>
+</template>
 
- </template>
-
-<script>
-import questions from '~/components/fqa'
-import premium from '~/components/premiumBox'
-import CookieBanner from '@/components/CookieBanner.vue';
-import communityPort from '~/components/community'
-import SlidersBox from '~/components/slider';
-export default {
-  name: 'Sliders',
-  components: {
-    SlidersBox,
-    CookieBanner, 
-    communityPort, 
-    premium,
-    questions,
-  },
-};
-</script>
-
- 

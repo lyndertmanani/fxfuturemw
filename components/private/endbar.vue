@@ -1,13 +1,12 @@
 <template>
-<footer class="bg-white    ">
+<footer class="bg-gray-950    ">
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
             <!-- <a href="#">
                 <img class="w-auto h-7" src="../assets/icons/svg-logo-white.svg" alt="">
             </a> -->
             <div class="flex flex-wrap justify-center mt-6 py-5 -mx-4">
-                
-                <NuxtLink  to="/private" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" >Private </NuxtLink>
+                <NuxtLink  to="/" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500">  Home </NuxtLink>
 
                 <NuxtLink  to="/Program" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" >  Program </NuxtLink>
 
@@ -22,7 +21,7 @@
 
         </div>
 
-        <hr class="my-6 border-gray-200 md:my-10  " />
+        <hr class="my-6 border-gray-700 md:my-10  " />
 
         <div class="flex flex-col items-center sm:flex-row sm:justify-between px-20">
             <p class="text-sm text-gray-500 ">© Copyright 2021. All Rights Reserved.</p>
@@ -56,17 +55,25 @@
                 </a>
             </div>
         </div>
-        <div class="text-start text-gray-500 sm:px-2 lg:px-20 py-8 ">
-            <div class=" bg-gray-100 rounded-xl p-6" id="disclaimer">
+        <div class="text-start text-gray-400 sm:px-2 lg:px-20 py-8 ">
+            <div class=" bg-gray-900 rounded-xl p-6" id="disclaimer">
     <h1 class="font-bold">Disclaimer</h1>
     <p class=" text-[.6rem]">Risk and Volatility in Online Financial Markets
+
 Please note that the information and education provided on our website regarding online financial markets, including forex trading, crypto trading, and the stock market, is based on our experience and expertise. However, it is important to understand that the financial markets are inherently risky and volatile in nature.
+
 Trading in online financial markets involves a significant level of risk, and there is no guarantee of profit or success. The value of investments can fluctuate, and it is possible to lose all of your invested capital. Past performance is not indicative of future results, and market conditions can change rapidly.
+
 While we strive to provide accurate and up-to-date information, it is important to recognize that the future may bring unforeseen events and market fluctuations that can impact the performance of financial instruments. Therefore, any investment or trading decisions made based on the information provided on our website should be done so at your own risk and discretion.
+
 We strongly recommend that you seek professional financial advice before making any investment or trading decisions. It is crucial to thoroughly understand the risks involved and to carefully consider your financial situation, investment objectives, and risk tolerance before engaging in any trading activities.
+
 By accessing and using our website, you acknowledge and agree that we are not responsible for any losses or damages incurred as a result of your trading or investment activities. We do not guarantee the accuracy, completeness, or reliability of the information provided, and we disclaim any liability for any errors or omissions.
+
 Please be aware that the online financial markets are subject to various external factors, including economic, political, and regulatory changes, which can impact the performance and stability of financial instruments. It is your responsibility to stay informed about these factors and to make informed decisions based on your own research and analysis.
+
 In conclusion, trading and investing in online financial markets carry inherent risks, and the future performance of financial instruments may differ from historical data. Our educational resources are provided for informational purposes only and should not be considered as financial advice. We encourage you to exercise caution, conduct thorough research, and seek professional guidance before making any investment or trading decisions.
+
 By using our website and accessing our educational resources, you agree to the terms of this disclaimer and acknowledge the risks involved in online financial markets.</p>
 </div>
 </div>
@@ -74,9 +81,3 @@ By using our website and accessing our educational resources, you agree to the t
 </footer>
 </template>
 
-<script>
-export default {
-  name: 'dash_step',
-  
-}
-</script>
