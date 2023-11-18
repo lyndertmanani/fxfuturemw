@@ -8,12 +8,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: [{ src: "~/plugins/aos.client.js", ssr: false, mode: "client" }],
+  plugins: [
+    { src: "~/plugins/aos.client.js", ssr: false, mode: "client" },
+    { src: '~/plugins/widget', ssr: false },
+  ],
   modules: [
     ['@nuxtjs/google-fonts', {
         families: {
           Roboto: true,
-          'Nunito Sans': [100, 200],
+          'poppins': [100, 200],
            'Josefin+Sans': true,
           Lato: [100, 300],
           Raleway: {

@@ -24,10 +24,12 @@
     </div>
      
 </div>
+<widget/>
 <communityPort/>
 <footerp/> 
 </template>
 <script>
+import widget from '~/components/TradingViewWidget.vue'
 import communityPort from '~/components/community'
 import nav_bar from '~/components/private/nav_v2.vue'
 import prices from '~/components/private/pricing.vue'
@@ -38,6 +40,7 @@ export default {
     nav_bar,
     prices,
     footerp,
+    widget,
  
   },
 };

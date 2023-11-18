@@ -2,6 +2,7 @@
  <SlidersBox/>
  <!-- cookies -->
  <!-- <CookieBanner /> -->
+ <Widget/>
    <!-- content devision -->
  <div class=" h-auto  z-50  text-center text-gray-800 px-5 lg:px-20 py-1">
 <!-- Call To Action (CTA) -->
@@ -146,6 +147,7 @@
  </template>
 
 <script>
+import Widget from '~/components/TradingViewWidget.vue'
 import questions from '~/components/fqa'
 import premium from '~/components/premiumBox'
 import CookieBanner from '@/components/CookieBanner.vue';
@@ -159,6 +161,7 @@ export default {
     communityPort, 
     premium,
     questions,
+    Widget,
   },
 };
 </script>
