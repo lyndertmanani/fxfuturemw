@@ -1,6 +1,6 @@
 <template>
     <!-- nav-bar -->
-    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full fixed  bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0   ">
+     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full fixed  bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0   "> 
     <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 z-50 select-none " aria-label="Global">
      
       <div class="flex items-center justify-between">
@@ -32,19 +32,13 @@
         </div>
       </div>
       
-    </nav>
+    </nav> 
     <!-- <img src="../assets/images/hero.png" alt="" class="  w-full h-full object-cover object-center absolute " /> -->
   </header>
-
-      
- 
   </template>
 
-<!-- <script>
+  <!-- <script>  
 export default {
   name: 'Navbar',
-  
-}
-
- 
-<script/> -->
+};
+<script/>  -->

@@ -1,16 +1,16 @@
 <template>
      <div class="z-0 lg:h-[650px] h-[550px] overflow-hidden text-white bg-gray-950 relative">
        <!-- Background Image -->
-       <img src="../assets/images/Hero-Transfers.png" alt="" class="hidden w-full h-full object-cover object-center absolute lg:flex" />
+       <img src="../assets/images/Hero-Transfers.png" alt="" class="hidden w-full h-full object-cover object-center absolute lg:flex" data-aos="fade-down-left" />
        <img src="../assets/images/hero.png" alt="" class="flex w-full h-full object-cover object-center absolute lg:hidden" />
      <!-- effect-layer -->
      <div class="bg-gradient-to-b from-transparent to-gray-950  w-full h-full absolute top-0 left-0 z-0"></div>
        <div class="mt-32 p-8 lg:p-32 text-6xl lg:text-8xl tracking-tighter font-bold relative">
-         <h1 class="mb-4">FxfutureMw </h1>
-         <h1 class="mt-[-10px] mb-4">Community </h1>
-         <p class="lg:text-lg tracking-tight font-normal text-xl text-gray-400 mt-[8px]">Supported by a network of early advocates, traders, and experts </p>
+         <h1 class="mb-4" data-aos="fade-down-right"  data-aos-duration="1000">FxfutureMw </h1>
+         <h1 class="mt-[-10px] mb-4" data-aos="fade-down-left"  data-aos-duration="1000">Community </h1>
+         <p class="lg:text-lg tracking-tight font-normal text-xl text-gray-400 mt-[8px]" data-aos="fade-in">Supported by a network of early advocates, traders, and experts </p>
          <div class="pt-[10px] lg:pt-[0px] text-6xl">
-           <NuxtLink to="/" class="gradient-border text-3xl text-white tracking-normal rounded-full py-2 px-4 sm:py-3 sm:px-2 cursor-pointer">
+           <NuxtLink to="/" class="gradient-border text-3xl text-white tracking-normal rounded-full py-2 px-4 sm:py-3 sm:px-2 cursor-pointer" data-aos="zoom-in">
              Telegram
            </NuxtLink> 
          </div>

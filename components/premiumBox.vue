@@ -2,7 +2,7 @@
  
     <section class="bg-white py-10 lg:p-20  h-[650px]">
       <div class="grid max-w-screen-xl ml-10 py-10 mx-auto lg:gap-8 xl:gap-0 lg:py-1 lg:grid-cols-12">
-        <div class="mr-auto place-self-center text-start lg:col-span-7">
+        <div class="mr-auto place-self-center text-start lg:col-span-7" data-aos="fade-right"  data-aos-duration="1000">
             <h1 class="max-w-2xl mb-4 text-5xl    font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl  ">Premium Program</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl  ">Private, one-on-one forex trading lessons provide personalized, focused guidance for mastering forex trading. Tailored to your needs, it enhances your understanding and potential for success. </p>
             <NuxtLink  to="/Private"  class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base duration-500 font-medium text-center text-white rounded-full bg-gray-800  hover:bg-gradient-to-r from-amber-300 to-yellow-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -11,7 +11,7 @@
             </NuxtLink>
      
         </div>
-        <div class="lg:p-0 p-10 lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="lg:p-0 p-10 lg:mt-0 lg:col-span-5 lg:flex"  data-aos="fade-left"  data-aos-duration="1000">
             <img src="../assets/icons/premium-x.svg" alt="mockup" class="lg:h-96 ">
         </div>                
     </div>

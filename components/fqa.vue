@@ -1,7 +1,7 @@
 <template>
     <div class=" h-[650px] px-5 lg:p-28 overflow-scroll">
 		<div class=" mt-20 lg:mt-[-80px]">
-		<div class="  max-w-screen-md text-start mb-8 lg:mb-12" >
+		<div class="  max-w-screen-md text-start mb-8 lg:mb-12"  data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
           <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-950 "   >FQAs</h2>
           <p class="mb-5 font-light   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
       </div>

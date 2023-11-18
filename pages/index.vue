@@ -12,14 +12,14 @@
  <!-- what we offer -->
 <section class="bg-white select-none">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 h-auto">
-      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12" >
-          <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-800 " data-aos="zoom-in" >Discover Top Course</h2>
+      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12" data-aos="fade-up"  data-aos-anchor-placement="center-bottom"  data-aos-duration="1000" >
+          <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-800 "  >Discover Top Course</h2>
           <p class="mb-5 font-light   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
       </div>
       
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  ">
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800  duration-500 bg-white rounded-lg border border-gray-300 hover:shadow-xl ">
+          <div  data-aos="fade-right"  data-aos-duration="1000" class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800  duration-500 bg-white rounded-lg border border-gray-300 hover:shadow-xl ">
               <h3 class="mb-4 text-2xl font-semibold">Synthetics trades</h3>
               <p class="font-light sm:text-lg ">With a special focus on Boom and Crash markets.</p>
               <div class="flex justify-center items-baseline my-4">
@@ -58,7 +58,7 @@
               <a href="#" class="text-white bg-gray-800 hover:bg-blue-600 duration-500 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
+          <div  data-aos="fade-in"  data-aos-duration="1000" class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
               <h3 class="mb-4 text-2xl  font-semibold">Currencies</h3>
               <p class="font-light sm:text-lg  ">Relevant for multiple users, extended & premium support.</p>
               <div class="flex justify-center items-baseline my-4">
@@ -96,7 +96,7 @@
               <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-blue-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
+          <div  data-aos="fade-left" data-aos-duration="1000"  class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
               <h3 class="mb-4 text-2xl font-semibold">Forex Stocks</h3>
               <p class="font-light sm:text-lg ">Best for large scale uses and extended redistribution rights.</p>
               <div class="flex justify-center items-baseline my-4">
