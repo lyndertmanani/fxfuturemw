@@ -3,7 +3,7 @@
 <div class="px-5 lg:px-20 font-[poppins]">
   <div class="flex items-center justify-center  mb-4">
     
-<section class="bg-white   bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
+<section class="bg-white">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-36 z-10 relative">
         <!-- <a href="#" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
             <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Signup and Login for more experience</span> 
@@ -27,7 +27,7 @@ crypto trading, and the stock market.</p>
  <section class="bg-white  ">
     <div class="grid max-w-screen-xl px-0 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-1 lg:grid-cols-12">
         <div class="mr-auto place-self-center text-start lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl  font-bold tracking-tight leading-none md:text-5xl xl:text-6xl  ">Meet Phillip Nkuna & Akogho Mwentembela</h1>
+            <h1 class="max-w-2xl mb-4 text-4xl text-gray-900 font-bold tracking-tight leading-none md:text-5xl xl:text-6xl  ">Meet Phillip Nkuna & Akogho Mwentembela</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-sm lg:text-sm sm:text-xs  "> 
           I'm Phillip Nkuna, a seasoned forex trader and Founder of Forex Future Malawi. Together with my trading partner,Co-Founder Akogho Mwentembela, also known as Oracle 1, we specialize in forex trading and synthetic indices such as boom and crash. Our trading strategy is adaptable and can be applied to various trading instruments.
 With a combined experience of over five years in the forex market, we have successfully mentored and guided more than 100 students in their journey towards financial independence. One of our notable achievements includes passing a challenge from a renowned pro firm, MyFundedfx.

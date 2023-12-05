@@ -1,9 +1,9 @@
 <template>
  <section class="select-none">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 h-auto"> 
-      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  ">
+      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  font-normal  ">
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900 hover:border-gray-800">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border transition-colors  border-gray-900 hover:border-gray-800">
             
               <h3 class="mb-4 text-2xl font-semibold">Synthetics trades</h3>
               <p class="font-light sm:text-lg ">With a special focus on Boom and Crash markets.</p>

@@ -1,9 +1,10 @@
 <template>
+	<div class="bg-white">
     <div class=" h-[650px] px-5 lg:p-28 overflow-scroll">
 		<div class=" mt-20 lg:mt-[-80px]">
 		<div class="  max-w-screen-md text-start mb-8 lg:mb-12"  data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
           <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-950 "   >FQAs</h2>
-          <p class="mb-5 font-light   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
+          <p class="mb-5 font-light sm:text-xl text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
       </div>
 <div class="accordion-group bordered   ">
 	<div class="accordion bg-white">
@@ -12,7 +13,7 @@
 			<p> Where can we find fxfutureMw?</p>
 		</label>
 		<div class="content">
-			<div class="min-h-0 text-start">
+			<div class="min-h-0 text-start font-medium">
 				<p>
 					We are located in Blantyre running online and will communicate 
 					as soon as we set up our offices
@@ -26,7 +27,7 @@
 			<p>How does forex trading Work?</p>
 		</label>
 		<div class="content">
-			<div class="min-h-0 text-start">
+			<div class="min-h-0 text-start font-medium">
 				<p>
 					Forex trading involves speculating on the price movements  
 					 of currency pairs.Traders can go long <span class="text-gray-600 bg-gray-300 p-1 rounded-md">Buy</span> or short <span class="text-gray-600 bg-gray-300 p-1 rounded-md">Sell</span>
@@ -42,7 +43,7 @@
 			<p>Is forex trading risky?</p>
 		</label>
 		<div class="content">
-			<div class="min-h-0 text-start">
+			<div class="min-h-0 text-start font-medium">
 				<p>
 					Yes, forex trading carries a certain level of risk. The market is
 					highly volatile, and price can change rapidly. It is important to 
@@ -52,6 +53,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 </div>
 </div>

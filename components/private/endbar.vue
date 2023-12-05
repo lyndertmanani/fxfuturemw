@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-gray-950    ">
+<footer class="bg-gray-950   font-normal  ">
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
             <!-- <a href="#">
@@ -12,11 +12,11 @@
 
                 <NuxtLink  to="/about" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" > About </NuxtLink>
 
-                <NuxtLink  to=" " href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
+                <NuxtLink  to="/index" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
 
-                <NuxtLink  to="" href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
+                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
 
-                <NuxtLink  to="" href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
+                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
             </div>
 
         </div>

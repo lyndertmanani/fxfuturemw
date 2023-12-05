@@ -5,7 +5,7 @@
   
       <!-- Login Form -->
       <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-        <form action="./verify " method="get" class="w-full max-w-sm text-white">
+        <form action="./data.blog " method="get" class="w-full max-w-sm text-white">
           <div class="flex items-center justify-center mb-4">
             <img src="../../assets/icons/svg-logo-white-w.svg" class="h-14" alt="PashoyoMw_logo">
           </div>

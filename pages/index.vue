@@ -15,10 +15,10 @@
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 h-auto">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12" data-aos="fade-up"  data-aos-anchor-placement="center-bottom"  data-aos-duration="1000" >
           <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-800 "  >Discover Top Course</h2>
-          <p class="mb-5 font-light   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
+          <p class="mb-5 font-normal   sm:text-xl  text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
       </div>
       
-      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  ">
+      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  font-normal ">
           <!-- Pricing Card -->
           <div  data-aos="fade-right"  data-aos-duration="1000" class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800  duration-500 bg-white rounded-lg border border-gray-300 hover:shadow-xl ">
               <h3 class="mb-4 text-2xl font-semibold">Synthetics trades</h3>
@@ -29,7 +29,7 @@
                   <span class="text-gray-400">/month</span>
               </div>
               <!-- List -->
-              <ul role="list" class="mb-4 space-y-2 text-left ">
+              <ul role="list" class="mb-4 space-y-2 text-left   ">
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
                       <svg class="flex-shrink-0 w-5 h-5 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>

@@ -13,11 +13,11 @@
 
                 <NuxtLink  to="/about" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" > About </NuxtLink>
 
-                <NuxtLink  to=" " href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
+                <NuxtLink  to="/index" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
 
-                <NuxtLink  to="" href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
+                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
 
-                <NuxtLink  to="" href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
+                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
             </div>
 
         </div>
