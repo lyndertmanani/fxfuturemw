@@ -36,7 +36,7 @@
       </ul>
     </div>
     </div>
-    <img src="../assets/images/hero.png" alt="" class="  w-full h-full object-cover object-center absolute " />  
+    <!-- <img src="../assets/images/hero.png" alt="" class="  w-full h-full object-cover object-center absolute " />   -->
   </nav>
   </header>
     </template>
