@@ -8,11 +8,13 @@ export default {
     "./app.vue",
     "./error.vue",
     "node_modules/preline/dist/*.js",
+    "./node_modules/flowbite/**/*.{js,ts}",
   ],
   theme: {
     extend: {},
   },
   plugins: [
+    require('flowbite/plugin'),
     require('@sira-ui/tailwind'),
   ],
 }

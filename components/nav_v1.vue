@@ -1,45 +1,57 @@
 <template>
-    <!-- nav-bar -->
-     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full fixed  bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0   "> 
-    <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 z-50 select-none " aria-label="Global">
-     
-      <div class="flex items-center justify-between">
-        <a class="flex-none text-xl font-semibold   " href="#" aria-label="Brand"> <img src="~/assets/icons/svg-logo-white.svg" class="h-10 mr-3 select-none" alt="fxfuture_logo" /></a>
-        <div class="sm:hidden">
-          <!-- drop-down on mobile -->
-          <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium   backdrop-filter backdrop-blur-xl text-gray-700 shadow-sm align-middle transition-all text-sm      " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
-            <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-            <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block text-gray-400">
-        <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7 font-light">
-          <NuxtLink  to="/" class="font-medium text-blue-600 sm:py-6 "  aria-current="page" > Home</NuxtLink>
-          <NuxtLink  to="/private" class="font-medium  sm:py-6  hover:text-gray-500" >Private </NuxtLink>
-          <NuxtLink  to="/Program" class="font-medium  sm:py-6  hover:text-gray-500" >  Program </NuxtLink>
-          <NuxtLink  to="/about" class="font-medium  sm:py-6  hover:text-gray-500" > About </NuxtLink>
-          <NuxtLink   to="/authentication/login" class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6   ">
+<header>
+<nav class="z-50 w-full fixed bg-stone-700 overflow-hidden bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-2 ">
+  <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="../assets/icons/svg-logo-white.svg" class="h-8" alt="Main-logo" />
+      <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
+  </NuxtLink>
+  <div class="flex md:order-5 space-x-3 md:space-x-0 rtl:space-x-reverse ">
+    <NuxtLink   to="/authentication/login" class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6   ">
             <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
               <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
             </svg>
             Log in
           </NuxtLink>
-          
-        </div>
-      </div>
-      
-    </nav> 
-    <!-- <img src="../assets/images/hero.png" alt="" class="  w-full h-full object-cover object-center absolute " /> -->
-  </header>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-300 focus:outline-none dark:hover:bg-gray-700" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="flex flex-col font-medium p-5 md:p-0 mt-4  text-slate-500 rounded-lg  space-y-4 lg:space-y-0  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+      <li>
+        <NuxtLink  to="/" class="font-medium text-blue-600 sm:py-6 "  aria-current="page" > Home</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink  to="/private" class="font-medium  sm:py-10  hover:text-gray-500" >Private </NuxtLink>    
+        </li>
+      <li>
+        <NuxtLink  to="/Program" class="font-medium  sm:py-6  hover:text-gray-500" >  Program </NuxtLink>
+            </li>
+      <li>
+        <NuxtLink  to="/about" class="font-medium  sm:py-6  hover:text-gray-500" > About </NuxtLink>      </li>
+    </ul>
+  </div>
+  </div>
+  <img src="../assets/images/hero.png" alt="" class="  w-full h-full object-cover object-center absolute " />  
+</nav>
+</header>
   </template>
+<script setup>
+import { onMounted } from 'vue'
+import { initFlowbite } from 'flowbite'
 
-  <!-- <script>  
-export default {
-  name: 'Navbar',
-};
-<script/>  -->
+// initialize components based on data attribute selectors
+onMounted(() => {
+    initFlowbite();
+})
+// export default {
+//   name: 'Navbar',
+// };
+</script>
+  
+ 
+ 
