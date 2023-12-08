@@ -25,6 +25,7 @@
     "@splidejs/vue-splide": "^0.6.12",
     "flowbite": "^2.2.0",
     "typescript": "^5.2.2",
+    "vue-password-strength-meter": "^1.7.2",
     "vue-trading-view": "^1.0.1"
   }
 }

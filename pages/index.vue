@@ -97,7 +97,7 @@
               <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-blue-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           <!-- Pricing Card -->
-          <div  data-aos="fade-left" data-aos-duration="1000"  class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
+          <div  data-aos="fade-in" data-aos-duration="1000"  class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-800 bg-white rounded-lg border duration-500  xl:p-8 border-gray-300 hover:shadow-xl">
               <h3 class="mb-4 text-2xl font-semibold">Forex Stocks</h3>
               <p class="font-light sm:text-lg ">Best for large scale uses and extended redistribution rights.</p>
               <div class="flex justify-center items-baseline my-4">
@@ -140,6 +140,7 @@
  
 <!-- premium -->
 <premium/>
+<iframe class="h-[550px] w-full" src="https://rss.app/embed/v1/carousel/pD0GKXB5uovzhtFe" frameborder="0"></iframe>
 <questions/>
  </div>
 <communityPort/>

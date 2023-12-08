@@ -1,6 +1,6 @@
 <template>
 <header>
-<nav class="z-50 w-full fixed bg-stone-700 overflow-hidden bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0">
+<nav class="z-50 w-full fixed  overflow-hidden bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-2 ">
   <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="../assets/icons/svg-logo-white.svg" class="h-8" alt="Main-logo" />
@@ -28,11 +28,15 @@
       <li>
         <NuxtLink  to="/private" class="font-medium  sm:py-10  hover:text-gray-500" >Private </NuxtLink>    
         </li>
+        <!-- <li>
+        <NuxtLink  to="/blog" class="font-medium  sm:py-6  hover:text-gray-500" >  Blog </NuxtLink>
+            </li> -->
       <li>
         <NuxtLink  to="/Program" class="font-medium  sm:py-6  hover:text-gray-500" >  Program </NuxtLink>
             </li>
       <li>
-        <NuxtLink  to="/about" class="font-medium  sm:py-6  hover:text-gray-500" > About </NuxtLink>      </li>
+        <NuxtLink  to="/about" class="font-medium  sm:py-6  hover:text-gray-500" > About </NuxtLink>  
+          </li>
     </ul>
   </div>
   </div>

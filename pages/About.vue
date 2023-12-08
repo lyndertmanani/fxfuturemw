@@ -1,6 +1,6 @@
 <template>
 <div class="pt-20">
-<div class="px-5 lg:px-20 font-[poppins]">
+<div class="px-5 lg:px-20  ">
   <div class="flex items-center justify-center  mb-4">
     
 <section class="bg-white">

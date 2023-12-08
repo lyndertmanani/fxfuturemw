@@ -1,6 +1,6 @@
 <template>
   <header>
-  <nav class="z-50 w-full fixed bg-stone-700 overflow-hidden bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0">
+  <nav class="z-50 w-full fixed  overflow-hidden bg-opacity-20 backdrop-filter backdrop-blur-xl border-b border-transparent text-sm py-3 sm:py-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-2 ">
     <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="~/assets/icons/svg-logo-white-w.svg" class="h-8" alt="Main-logo" />
