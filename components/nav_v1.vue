@@ -25,9 +25,9 @@
       <li>
         <NuxtLink  to="/" class="font-medium text-blue-600 sm:py-6 "  aria-current="page" > Home</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink  to="/private" class="font-medium  sm:py-10  hover:text-gray-500" >Private </NuxtLink>    
-        </li>
+        </li> -->
         <!-- <li>
         <NuxtLink  to="/blog" class="font-medium  sm:py-6  hover:text-gray-500" >  Blog </NuxtLink>
             </li> -->

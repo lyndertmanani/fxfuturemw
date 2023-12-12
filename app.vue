@@ -21,7 +21,7 @@ export default {
    </NuxtLayout>
  </div>
  
- <footBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify' && $route.path !== '/private'"/>
+ <!-- <footBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify' && $route.path !== '/private'"/> -->
 </template>
  
 <style>
