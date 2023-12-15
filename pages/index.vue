@@ -1,7 +1,7 @@
  <template>
  <!-- <SlidersBox/> -->
  <!-- cookies -->
- <!-- <CookieBanner /> -->
+ <CookieBanner />
  <!-- <Widget/> -->
    <!-- content devision -->
  <!-- <div class=" h-auto  z-50  text-center text-gray-800 px-5 lg:px-20 py-1"> -->
@@ -152,7 +152,7 @@ import pvt from './private.vue'
 // import Widget from '~/components/TradingViewWidget.vue'
 // import questions from '~/components/fqa'
 // import premium from '~/components/premiumBox'
-// import CookieBanner from '@/components/CookieBanner.vue';
+import CookieBanner from '@/components/CookieBanner.vue';
 // import communityPort from '~/components/community'
 // import SlidersBox from '~/components/slider';
 export default {
@@ -160,7 +160,7 @@ export default {
   components: {
     pvt,
     // SlidersBox,
-    // CookieBanner, 
+    CookieBanner, 
     // communityPort, 
     // premium,
     // questions,

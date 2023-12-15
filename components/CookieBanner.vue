@@ -1,5 +1,5 @@
 <template>
-    <section class="fixed max-w-2xl p-4 mx-auto bg-white border border-gray-200 md:gap-x-4 lg:left-10 md:left-8 sm:mx-5 bottom-16  md:flex md:items-center  rounded-2xl">
+    <section v-if="!acceptedCookies" class="fixed z-50 max-w-2xl p-4  font-medium mx-auto bg-gray-900 text-slate-300 md:gap-x-4 lg:left-10 md:left-8 sm:mx-5 bottom-16  md:flex md:items-center  rounded-2xl">
     <div class="flex items-center gap-x-4">
         <span class="inline-flex p-2 text-blue-500 rounded-lg shrink-0   bg-blue-100/80">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -7,20 +7,61 @@
             </svg>
         </span>
 
-        <p class="text-sm text-gray-600  ">We use cookies to ensure that we give you the best experience on our website. <a href="#" class="text-blue-500 hover:underline">Read cookies policies</a>. </p>
+        <p class="text-sm text-slate-300  ">We use cookies to ensure that we give you the best experience on our website. <a href="#" class="text-blue-500 hover:underline">Read cookies policies</a>. </p>
     </div>
     
     <div class="flex items-center mt-6 gap-x-4 shrink-0 lg:mt-0">
-        <button class="w-1/2 text-xs text-gray-800 underline transition-colors duration-300 md:w-auto     focus:outline-none">
+        <button class="w-1/2 text-xs text-slate-300 underline transition-colors duration-300 md:w-auto     focus:outline-none">
             Cookie Setting
         </button>
 
-        <button id="acceptCookiesBtn" class=" text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
-            Accept All Cookies
+        <button id="acceptCookiesBtn" @click="acceptCookies" class="text-xs w-1/2 md:w-auto font-medium bg-gray-800 rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
+        Accept All Cookies
         </button>
+
     </div>
 </section>
 </template>
-<script defer>
+<script  >
   
+export default {
+  data() {
+    return {
+      acceptedCookies: false,
+    };
+  },
+  mounted() {
+    // Show the cookie banner after 10 seconds
+    setTimeout(() => {
+      if (!this.acceptedCookies) {
+        this.showCookieBanner();
+      }
+    }, 20000);
+  },
+  methods: {
+    acceptCookies() {
+      // Handle the logic to set cookies and hide the banner
+      // For now, let's just hide the banner
+      this.hideCookieBanner();
+      this.acceptedCookies = true; // Set the flag to true
+    },
+    hideCookieBanner() {
+      // Assuming you have a way to identify the cookie banner element
+      const cookieBanner = document.querySelector('.your-cookie-banner-class');
+
+      if (cookieBanner) {
+        cookieBanner.style.display = 'none';
+      }
+    },
+    showCookieBanner() {
+      // Assuming you have a way to identify the cookie banner element
+      const cookieBanner = document.querySelector('.your-cookie-banner-class');
+
+      if (cookieBanner) {
+        cookieBanner.style.display = 'flex'; // or 'block', depending on your styling
+      }
+    },
+  },
+};
+ 
 </script>

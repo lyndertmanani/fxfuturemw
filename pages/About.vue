@@ -1,9 +1,9 @@
 <template>
-<div class="pt-20">
+<div class="pt-20 bg-gray-950  text-slate-300">
 <div class="px-5 lg:px-20  ">
   <div class="flex items-center justify-center  mb-4">
     
-<section class="bg-white">
+<section class="bg-gray-950">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-36 z-10 relative">
         <!-- <a href="#" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
             <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Signup and Login for more experience</span> 
@@ -11,24 +11,24 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
             </svg>
         </a> -->
-        <h1 class="mb-4 text-6xl font-bold tracking-tight leading-none text-gray-800 md:text-5xl lg:text-8xl  ">Your Best Step <br>  To Financial Freedom </h1>
-        <p class="mb-8 text-sm lg:text-start font-normal text-gray-800 lg:text-sm sm:text-xs sm:px-16 lg:px-48  "> We are a registered online forex trading consultancy dedicated to providing 
+        <h1 class="mb-4 text-6xl font-bold tracking-tight leading-none md:text-5xl lg:text-8xl  ">Your Best Step <br>  To Financial Freedom </h1>
+        <p class="mb-8 text-sm lg:text-start font-normal text-slate-500 lg:text-sm sm:text-xs sm:px-16 lg:px-48  "> We are a registered online forex trading consultancy dedicated to providing 
 education and guidance in the ever-evolving world of finance. Our mission is to empower individuals 
 with the knowledge and skills necessary to navigate the online financial markets, including forex trading, 
 crypto trading, and the stock market.</p>
        
     </div>
     <!-- effect-layer -->
-    <div class="bg-gradient-to-b from-gray-200 to-transparent  w-full h-full absolute top-0 left-0 z-0"></div>
+    <div class="bg-gradient-to-b from-gray-900 to-transparent  w-full h-full absolute top-0 left-0 z-0"></div>
      
 </section>
   </div>
   <div class="h-auto ">
- <section class="bg-white  ">
+ <section class=" ">
     <div class="grid max-w-screen-xl px-0 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-1 lg:grid-cols-12">
         <div class="mr-auto place-self-center text-start lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl text-gray-900 font-bold tracking-tight leading-none md:text-5xl xl:text-6xl  ">Meet Phillip Nkuna & Akogho Mwentembela</h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-900 lg:mb-8 md:text-sm lg:text-sm sm:text-xs  "> 
+            <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl   text-start ">Meet Phillip Nkuna & Akogho Mwentembela</h1>
+            <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-sm lg:text-sm sm:text-xs  "> 
           I'm Phillip Nkuna, a seasoned forex trader and Founder of Forex Future Malawi. Together with my trading partner,Co-Founder Akogho Mwentembela, also known as Oracle 1, we specialize in forex trading and synthetic indices such as boom and crash. Our trading strategy is adaptable and can be applied to various trading instruments.
 With a combined experience of over five years in the forex market, we have successfully mentored and guided more than 100 students in their journey towards financial independence. One of our notable achievements includes passing a challenge from a renowned pro firm, MyFundedfx.
 The spark for my forex trading career ignited after diving into financial literature, particularly books like 'Rich Dad Poor Dad.' I yearned for a way to work independently, without relying on traditional customer-centric businesses or being confined to regular employment structures.
@@ -44,14 +44,14 @@ We invite passionate souls to join us on this journey of empowering themselves w
 </section>
 </div>
 <!-- financial world -->
-  <section class="bg-white  ">
+  <section class="  ">
     <div class="py-0 px-1 mx-auto max-w-screen-xl lg:py-1">
         <div class=" rounded-lg p-8 md:p-12 mb-1">
             <img src="../assets/icons/svg-logo-white.svg" alt="logo" class=" h-36 lg:pl-52 ">
         </div>
         <div class="grid md:grid-cols-1 gap-8">
-            <div class="bg-gray-100   border-gray-200   rounded-lg p-8 md:p-12 ">
-                <a  class="bg-gray-300 text-gray-500 courser-point text-sm font-medium inline-flex items-center px-2.5 py-0.5 rounded-md  mb-2">
+            <div class=" border-gray-200   rounded-lg p-8 md:p-12 ">
+                <a  class="bg-gray-900 text-gray-500 courser-point text-sm font-medium inline-flex items-center px-2.5 py-0.5 rounded-md  mb-2">
                     <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
                         <path d="M17 11h-2.722L8 17.278a5.512 5.512 0 0 1-.9.722H17a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1ZM6 0H1a1 1 0 0 0-1 1v13.5a3.5 3.5 0 1 0 7 0V1a1 1 0 0 0-1-1ZM3.5 15.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM16.132 4.9 12.6 1.368a1 1 0 0 0-1.414 0L9 3.55v9.9l7.132-7.132a1 1 0 0 0 0-1.418Z"/>
                     </svg>

@@ -26,20 +26,20 @@
 </div>
 <widget/>
 <communityPort/>
-<footerp/> 
+<!-- <questions/> -->
 </template>
 <script>
 import widget from '~/components/TradingViewWidget.vue'
 import communityPort from '~/components/community'
 import nav_bar from '~/components/private/nav_v2.vue'
 import prices from '~/components/private/pricing.vue'
-import footerp from '~/components/private/endbar.vue'
+import questions from '~/components/fqa.vue'
 export default {
   components: { 
     communityPort,
     nav_bar,
     prices,
-    footerp,
+   questions,
     widget,
  
   },

@@ -1,6 +1,6 @@
  <script>
-import NavigationBar from '~/components/nav_v1.vue';
-import footBar from '~/components/footer.vue';
+import NavigationBar from '~/components/private/nav_v2.vue';
+import footBar from '~/components/private/endbar.vue';
 
 export default {
   name: 'Navbar',
@@ -13,15 +13,15 @@ export default {
 
 
 <template>
- <NavigationBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify'  && $route.path !== '/private'" />
+ <NavigationBar v-if="$route.path !== '/authentication/' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify'  && $route.path !== '/private'" />
 
  <div class="pashoyo_font">
    <NuxtLayout>
-    <NuxtPage />
+    <NuxtPage/>
    </NuxtLayout>
  </div>
  
- <!-- <footBar v-if="$route.path !== '/authentication/login' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify' && $route.path !== '/private'"/> -->
+ <footBar v-if="$route.path !== '/authentication/' && $route.path !== '/authentication/signup' && $route.path !== '/authentication/verify' && $route.path !== '/private'"/>
 </template>
  
 <style>

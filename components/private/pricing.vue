@@ -8,7 +8,7 @@
               <h3 class="mb-4 text-2xl font-semibold">Synthetics trades</h3>
               <p class="font-light sm:text-lg ">With a special focus on Boom and Crash markets.</p>
               <div class="flex justify-center items-baseline my-4">
-                  <span class="mr-2 text-5xl  text-gray-500 font-extrabold">$</span>
+                  <span class="mr-2 text-5xl  text-gray-500 font-semibold tracking-tighter">$100</span>
                   <span class="text-gray-400">/month</span>
               </div>
               <!-- List -->
@@ -48,7 +48,7 @@
               <h3 class="mb-4 text-2xl  font-semibold">Currencies</h3>
               <p class="font-light sm:text-lg  ">Relevant for multiple users, extended & premium support.</p>
               <div class="flex justify-center items-baseline my-4">
-                  <span class="mr-2 text-5xl text-gray-500 font-extrabold">$</span>
+                  <span class="mr-2 text-5xl text-gray-500 font-semibold tracking-tighter">$100</span>
                   <span class=" text-gray-400">/month</span>
               </div>
               <!-- List -->
@@ -82,12 +82,13 @@
               <a href="#" class="text-white bg-gray-800 duration-500 hover:bg-gradient-to-r from-amber-300 to-yellow-700  focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900  hover:border-gray-800">
-              <h3 class="mb-4 text-2xl font-semibold">Forex Stocks</h3>
+          <div  class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-600 duration-500 rounded-lg border border-gray-900  hover:border-gray-800">
+     
+            <h3 class="mb-4 text-2xl font-semibold">Forex Stocks</h3>
               <p class="font-light sm:text-lg ">Best for large scale uses and extended redistribution rights.</p>
               <div class="flex justify-center items-baseline my-4">
-                  <span class="mr-2 text-5xl  text-gray-500 font-extrabold">$</span>
-                  <span class= "text-gray-400">/month</span>
+                  <span class="mr-2 text-5xl  text-gray-500 font-extrabold"></span>
+                  <span class= "text-gray-400">---</span>
               </div>
               <!-- List -->
               <ul role="list" class="mb-4 space-y-2 text-left">
@@ -117,10 +118,21 @@
                       <span>Free updates: <span class="font-semibold">36 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-gray-800    duration-500  hover:bg-gradient-to-r from-amber-300 to-yellow-700   focus:ring-4 focus:ring-primary-200 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a data-tooltip-target="tooltip-default" href="javascript:void(0);" class="text-gray-500 bg-gray-800 duration-700 only-of-type:mx-6 cursor-not-allowed   focus:ring-2 focus:ring-red-600 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:text-white   " >
+                 Get started
+                 <div id="tooltip-default" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-red-600 rounded-lg shadow-sm opacity-0 tooltip ">
+                program not avialable
+                <div class="tooltip-arrow" data-popper-arrow></div>
+            </div>
+            </a>
           </div>
       </div>
   </div>
 </section>
 </template>
 
+<script>
+import { Tooltip } from 'flowbite';
+
+
+</script>

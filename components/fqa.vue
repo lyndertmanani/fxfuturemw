@@ -1,13 +1,13 @@
 <template>
-	<div class="bg-white">
+	<div class=" bg-gray-950  text-gray-600">
     <div class=" h-[650px] px-5 lg:p-28 overflow-scroll">
 		<div class=" mt-20 lg:mt-[-80px]">
 		<div class="  max-w-screen-md text-start mb-8 lg:mb-12"  data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
-          <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-950 "   >FQAs</h2>
-          <p class="mb-5 font-light sm:text-xl text-gray-600">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
+          <h2 class="mb-4 text-5xl tracking-tight font-bold text-50 "   >FQAs</h2>
+          <p class="mb-5 font-light sm:text-xl">we are dedicated to empowering individuals in Malawi with the knowledge and skills to excel in the world of forex trading.</p>
       </div>
 <div class="accordion-group bordered   ">
-	<div class="accordion bg-white">
+	<div class="accordion bg-gray-950">
 		<input class="toggle " id="accordion-bordered-bw-1" type="checkbox" />
 		<label class="title" for="accordion-bordered-bw-1">
 			<p> Where can we find fxfutureMw?</p>

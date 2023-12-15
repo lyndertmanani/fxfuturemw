@@ -1,16 +1,16 @@
 <template>
  
-    <div class=" pt-10 lg:px-20 font-normal  cursor-pointer">
+    <div class=" pt-10 lg:px-20 font-normal bg-gray-950  text-slate-300">
      
- <div class="h-23 p-9 text-4xl tracking-tight font-bold text-center   text-gray-800 ">
+ <div class="h-23 p-9 text-4xl tracking-tight   text-slate-300 font-bold text-center">
            <h2>Cohort Program 2023</h2> 
-             <p class="mt-1 text-sm tracking-normal font-normal lg:px-28 px-1 ">We are a registered online forex trading consultancy dedicated to providing education and guidance in the ever-evolving world of finance. Our mission is to empower individuals with the knowledge and skills necessary to navigate the online financial markets</p>
+             <p class="mt-1 text-sm tracking-normal  text-slate-500 font-normal lg:px-28 px-1 ">We are a registered online forex trading consultancy dedicated to providing education and guidance in the ever-evolving world of finance. Our mission is to empower individuals with the knowledge and skills necessary to navigate the online financial markets</p>
      </div> 
- <div class="relative overflow-x-auto shadow-md sm:rounded-lg text-gray-800 bg-slate-200 bg-opacity-20 backdrop-filter backdrop-blur-xl  ">
+ <div class="relative overflow-x-auto shadow-md sm:rounded-lg    bg-opacity-20 backdrop-filter backdrop-blur-xl  ">
     
      <table class="w-full text-sm text-left   ">
          
-         <thead class="text-xs font-regular uppercase bg-gray-900 text-white  ">
+         <thead class="text-xs font-regular uppercase   text-slate-300 ">
              <tr>
                  <th scope="col" class="px-6 py-3">
                      Program
@@ -43,7 +43,7 @@
                  </td>
                   
              </tr>
-             <tr class=" border-b   border-gray-600">
+             <tr class=" border-b   border-gray-800">
                  <th scope="row" class="px-6 py-4 font-medium   ">
                     Forex Currencies
                  </th>
@@ -58,7 +58,7 @@
                  </td>
                   
              </tr>
-             <tr class="border-b   border-gray-600 ">
+             <tr class="border-b   border-gray-800 ">
                  <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap ">
                    Understanding Stocks
                  </th>
@@ -74,7 +74,7 @@
                   
              </tr>
         
-         <tr class=" border-b border-gray-600   text-gray-400 ">
+         <tr class=" border-b border-gray-800   ">
                  <th scope="row" class="px-6 py-4 font-medium   whitespace-nowrap ">
                     Boom and Crush
                  </th>
@@ -89,7 +89,7 @@
                  </td>
                   
              </tr>
-             <tr class=" border-b   border-gray-600">
+             <tr class=" border-b   border-gray-800">
                  <th scope="row" class="px-6 py-4 font-medium   ">
                     Forex Currencies
                  </th>

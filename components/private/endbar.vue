@@ -6,17 +6,17 @@
                 <img class="w-auto h-7" src="../assets/icons/svg-logo-white.svg" alt="">
             </a> -->
             <div class="flex flex-wrap justify-center mt-6 py-5 -mx-4">
-                <NuxtLink  to="/" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500">  Home </NuxtLink>
+                <NuxtLink  to="/index" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500">  Home </NuxtLink>
 
                 <NuxtLink  to="/Program" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" >  Program </NuxtLink>
 
                 <NuxtLink  to="/about" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" > About </NuxtLink>
 
-                <NuxtLink  to="/index" class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
+                <NuxtLink  to="./ " class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Teams </NuxtLink>
 
-                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
+                <NuxtLink  to="./ "  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Privacy </NuxtLink>
 
-                <NuxtLink  to="/index"  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
+                <NuxtLink  to="./ "  class="mx-4 text-sm text-gray-600 transition-colors duration-500 hover:text-blue-500" aria-label="Reddit"> Cookies </NuxtLink>
             </div>
 
         </div>
@@ -24,7 +24,7 @@
         <hr class="my-6 border-gray-700 md:my-10  " />
 
         <div class="flex flex-col items-center sm:flex-row sm:justify-between px-20">
-            <p class="text-sm text-gray-500 ">© Copyright 2021. All Rights Reserved.</p>
+            <p class="text-sm text-gray-500"><span class="copyright-year"></span></p>
 
             <div class="flex -mx-2">
                 <a href="#" class="mx-2 text-gray-600 transition-colors duration-300   hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">
@@ -81,3 +81,13 @@ By using our website and accessing our educational resources, you agree to the t
 </footer>
 </template>
 
+<script>
+// document.addEventListener('DOMContentLoaded', function () {
+//     const currentYear = new Date().getFullYear();
+//     const copyrightElement = document.querySelector('.copyright-year');
+
+//     if (copyrightElement) {
+//       copyrightElement.textContent = `© Copyright ${currentYear}. All Rights Reserved.`;
+//     }
+//   });
+</script>
