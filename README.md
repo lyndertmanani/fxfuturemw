@@ -1,5 +1,6 @@
- 
-# FXFuture Malawi Website
+<p align="center">
+  <img src="https://fxfuturemw.vercel.app/_nuxt/svg-logo-white-w.02a7c0ce.svg" alt="FXFuture Malawi Logo" height="100">
+</p>
 
 **FXFuture Malawi** is a forex trading consultancy company based in Malawi. This project is their official static website, built using [Nuxt 3](https://nuxt.com) to deliver a fast, modern, and SEO-friendly web experience.
 
