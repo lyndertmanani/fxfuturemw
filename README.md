@@ -1,4 +1,4 @@
-<p align="center">
+<p align="start">
   <img src="https://fxfuturemw.vercel.app/_nuxt/svg-logo-white-w.02a7c0ce.svg" alt="FXFuture Malawi Logo" height="100">
 </p>
 
