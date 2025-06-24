@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^2.5.0",
     "@nuxt/types": "^2.17.2",
     "@nuxtjs/google-fonts": "^3.1.0",
     "autoprefixer": "^10.4.16",
@@ -23,11 +23,12 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@sira-ui/tailwind": "^0.11.8",
+    "@sira-ui/tailwind": "^0.9.1",
     "@splidejs/vue-splide": "^0.6.12",
     "flowbite": "^2.2.0",
     "typescript": "^5.2.2",
     "vue-password-strength-meter": "^1.7.2",
     "vue-trading-view": "^1.0.1"
-  }
+  },
+  "packageManager": "npm@11.2.0+sha512.3dc9c50ba813a3d54393155a435fe66404b72685ab0e3008f9ae9ed8d81f6104860f07ed2656dd5748c1322d95f3140fa9b19c59a6bba7750fd12285f81866da"
 }
